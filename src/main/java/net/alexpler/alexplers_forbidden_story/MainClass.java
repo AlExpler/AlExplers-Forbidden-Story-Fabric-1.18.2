@@ -1,5 +1,6 @@
 package net.alexpler.alexplers_forbidden_story;
 
+import net.alexpler.alexplers_forbidden_story.block.ModBlocks;
 import net.alexpler.alexplers_forbidden_story.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class MainClass implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
