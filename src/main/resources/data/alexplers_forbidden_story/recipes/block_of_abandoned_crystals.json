@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "alexplers_forbidden_story:abandoned_crystal"
+    }
+  },
+  "result": {
+    "item": "alexplers_forbidden_story:block_of_abandoned_crystals"
+  }
+}
