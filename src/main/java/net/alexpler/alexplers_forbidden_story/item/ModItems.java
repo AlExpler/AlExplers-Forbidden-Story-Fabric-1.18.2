@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item ABANDONED_CRYSTAL = registerItems(
-            "abandoned_crystal", new Item(new FabricItemSettings().group(ItemGroup.MISC))
+            "abandoned_crystal", new Item(new FabricItemSettings().group(ModItemGroup.ABANDONED_ITEMS))
     );
 
     private static Item registerItems(String name, Item item) {
