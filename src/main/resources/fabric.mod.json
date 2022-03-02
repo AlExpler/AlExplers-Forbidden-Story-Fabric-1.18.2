@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "alexplers_forbidden_story",
+  "version": "${version}",
+
+  "name": "AlExpler's Frobidden Story",
+  "description": "Uncover history of items by collecting all of them (or use REI lmfao)\n\nSOURCES COMING SOON!",
+  "authors": [
+    "Developers: AlExpler",
+    "Designers: AlExpler",
+    "Mod Story Creators: AlExpler",
+    "Testers: AlExpler",
+    "Just young stoopid person: AlExpler"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/AlExplerMain",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/alexplers_forbidden_story/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.alexpler.alexplers_forbidden_story.MainClass"
+    ]
+  },
+  "mixins": [
+    "alexplers_forbidden_story.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
