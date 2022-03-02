@@ -9,4 +9,6 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
     public static final ItemGroup ABANDONED_ITEMS = FabricItemGroupBuilder.build(new Identifier(MainClass.MOD_ID, "abandoned_items"),
     () -> new ItemStack(ModItems.ABANDONED_CRYSTAL));
+    public static final ItemGroup OTHERS = FabricItemGroupBuilder.build(new Identifier(MainClass.MOD_ID, "others"),
+            () -> new ItemStack(ModItems.ORE_DETECTOR));
 }

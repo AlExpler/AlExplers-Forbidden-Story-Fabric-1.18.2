@@ -1,5 +1,8 @@
 {
   "item.alexplers_forbidden_story.abandoned_crystal": "Abandoned Crystal",
   "block.alexplers_forbidden_story.block_of_abandoned_crystals": "Block of Abandoned Crystals",
-  "itemGroup.alexplers_forbidden_story.abandoned_items": "AFS's Abandoned Items"
+  "itemGroup.alexplers_forbidden_story.abandoned_items": "AFS's Abandoned Items",
+  "item.alexplers_forbidden_story.ore_detector.no_valuable": "No valuable ores found.",
+  "item.alexplers_forbidden_story.ore_detector": "Ore Detector",
+  "itemGroup.alexplers_forbidden_story.others": "AFS's Other Items"
 }

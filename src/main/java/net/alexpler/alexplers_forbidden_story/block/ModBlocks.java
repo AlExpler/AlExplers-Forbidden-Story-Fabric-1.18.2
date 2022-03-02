@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block BLOCK_OF_ABANDONED_CRYSTALS = registerBlock("block_of_abandoned_crystals",
-            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(6f).requiresTool()), ModItemGroup.ABANDONED_ITEMS);
+            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(25f).requiresTool()), ModItemGroup.ABANDONED_ITEMS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

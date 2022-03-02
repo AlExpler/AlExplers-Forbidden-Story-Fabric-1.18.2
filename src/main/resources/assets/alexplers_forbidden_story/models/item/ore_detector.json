@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alexplers_forbidden_story:item/ore_detector"
+  }
+}

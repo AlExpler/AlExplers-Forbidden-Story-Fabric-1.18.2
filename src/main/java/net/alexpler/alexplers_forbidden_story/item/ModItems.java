@@ -1,6 +1,7 @@
 package net.alexpler.alexplers_forbidden_story.item;
 
 import net.alexpler.alexplers_forbidden_story.MainClass;
+import net.alexpler.alexplers_forbidden_story.item.custom.OreDetector;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -11,6 +12,10 @@ public class ModItems {
 
     public static final Item ABANDONED_CRYSTAL = registerItems(
             "abandoned_crystal", new Item(new FabricItemSettings().group(ModItemGroup.ABANDONED_ITEMS))
+    );
+
+    public static final Item ORE_DETECTOR = registerItems(
+            "ore_detector", new OreDetector(new FabricItemSettings().group(ModItemGroup.OTHERS).maxDamage(16))
     );
 
     private static Item registerItems(String name, Item item) {
